@@ -1,0 +1,6 @@
+.add_image_container {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  overflow-x: auto;
+}

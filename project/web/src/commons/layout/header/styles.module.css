@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  gap: 4px;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 12px 20px;
+}
+
+.header_detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.title {
+  color: var(--gray-B);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}

@@ -1,0 +1,58 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.label_text {
+  color: var(--gary-800);
+  line-height: 20px;
+}
+
+.star {
+  color: var(--red);
+  line-height: 16px;
+}
+
+.textarea_box {
+  position: relative;
+}
+
+.textarea {
+  background-color: var(--gray-W);
+  color: var(--gray-B);
+  font-size: 14px;
+  border-radius: 8px;
+  padding: 12px 16px 32px;
+  width: 100%;
+  resize: none;
+  border: 1px solid var(--gray-200);
+  font-weight: 500;
+
+  &:placeholder-shown {
+    color: var(--gray-400);
+  }
+
+  &:focus {
+    border: 1px solid var(--gray-600);
+  }
+}
+
+.contents_length {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  color: var(--gray-400);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
